@@ -28,7 +28,7 @@ export default class Login extends Component {
   componentDidMount() {
     //GoogleSignin.hasPlayServices({ autoResolve: true });
     GoogleSignin.configure({
-      webClientId: '468216471851-lh8cn34iv7i58att1st4o8h86f84hj7f.apps.googleusercontent.com', // client ID of type WEB for your server (needed to verify user ID and offline access)
+      webClientId: 'google client key', // client ID of type WEB for your server (needed to verify user ID and offline access)
       offlineAccess: true,
     });
     // getCurrentUserInfo = async () => {
